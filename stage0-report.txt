@@ -1,0 +1,47 @@
+=== My Joe - Stage 0 Verification Report (v3) ===
+Generated: 2025-11-14T18:32:58
+
+
+### Environment
+Node.js version: 24.11.0
+OK: Node.js version meets or exceeds the Next.js minimum (20.9+).
+npm version: 11.6.2
+Git version: git version 2.51.2.windows.1
+
+### Project structure
+Project root: C:\myjoe\myjoe-app
+OK: Project folder exists.
+OK: Found package.json
+HASH (package.json): 60A35EF091BD1D719BE2E2E4B3813AEB91951B9ADEEBEEE5E99DE27E534FB26A
+OK: Found tsconfig.json
+HASH (tsconfig.json): 5C51DF4C59F4510D8C7DADF07A5C32132228826A3B331DA5E286207B4DF7EF9C
+OK: Found Root layout (layout.tsx) at src\app\layout.tsx
+HASH (src\app\layout.tsx): E65025CA7842D1B3EC1FCB41768F974CFBB9C5CA85ABB2FB2ACE6DFA4AC4F860
+OK: Found Root page (page.tsx) at src\app\page.tsx
+HASH (src\app\page.tsx): 54CFDB1174C3B81046470A867A760BEE44BF2B75527504A3D8B10F24CE856A23
+OK: Found Next.js config file: next.config.ts
+HASH (next.config.ts): 614BCE25B089C3F19B1E17A6346C74B858034040154C6621E7D35303004767CC
+OK: Found PostCSS config file: postcss.config.mjs
+HASH (postcss.config.mjs): DFAC7AC2D86D326A0E5ADB024E7943C181393ED17A5FCB8F0315B24C7DA6DDDE
+
+### Dependencies (from package.json)
+OK: Dependency present - next
+OK: Dependency present - react
+OK: Dependency present - react-dom
+OK: Dependency present - typescript
+OK: Dependency present - tailwindcss
+OK: Dependency present - @tailwindcss/postcss
+INFO: Optional dependency not found in package.json - postcss
+
+### npm run dev (dry run)
+OK: 'npm run dev -- --help' executed. First lines:
+  
+  > myjoe-app@0.1.0 dev
+  > next dev --help
+  
+  Usage: next dev [directory] [options]
+  
+  Starts Next.js in development mode with hot-code reloading, error reporting,
+  and more.
+  
+  Arguments:
