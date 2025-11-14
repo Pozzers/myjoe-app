@@ -11,6 +11,8 @@
 **Staging host:** Vercel  
 **Staging URL:** https://myjoe-app.vercel.app/
 
+Staging URL: https://myjoe-app.vercel.app/
+
 ---
 
 ## 1. Stage 1 goals
@@ -57,10 +59,10 @@
 
 ### 2.4 Verification
 
-- [ ] `tools\Verify-Stage1.ps1` exists.
-- [ ] `.\tools\Verify-Stage1.ps1` runs without error.
-- [ ] `stage1-report.txt` is generated in the project root.
-- [ ] Report shows:
+- [x] `tools\Verify-Stage1.ps1` exists.
+- [x] `.\tools\Verify-Stage1.ps1` runs without error.
+- [x] `stage1-report.txt` is generated in the project root.
+- [x] Report shows:
   - `.git` present.
   - Current branch is `main`.
   - `origin` points to `https://github.com/Pozzers/myjoe-app.git`.
@@ -72,7 +74,7 @@
 
 ## 3. Key decisions
 
-- **Version control:** Git used for all source control; `main` is the primary branch.
+- **Version control:** Git is used for all source control; `main` is the primary branch.
 - **Remote hosting:** GitHub repository at `https://github.com/Pozzers/myjoe-app` is the single source of truth for the codebase.
 - **Remote name:** Standard `origin` remote is used for the GitHub repo.
 - **Deploy target (staging):** Vercel is the default staging host for My Joe’s Next.js app.
