@@ -1,0 +1,14 @@
+=== My Joe – Stage 1 Verification Report ===
+Generated: 2025-11-14 21:05:56+00:00
+Project root: C:\myjoe\myjoe-app
+
+[OK] .git directory found at: C:\myjoe\myjoe-app\.git
+Current Git branch: main
+[OK] Current branch is 'main'.
+Origin remote URL: https://github.com/Pozzers/myjoe-app.git
+[OK] Origin matches expected GitHub repo URL.
+[WARN] Working tree has uncommitted changes:
+?? docs/stage1-handover.md
+?? tools/Verify-Stage1.ps1
+[OK] Stage 1 handover file found: C:\myjoe\myjoe-app\docs\stage1-handover.md
+[WARN] No line starting with 'Staging URL:' found in docs\stage1-handover.md.
